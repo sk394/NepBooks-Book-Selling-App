@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SumanWeb.Models;
+using Suman.Models;
 using System.Diagnostics;
 
-namespace SumanWeb.Controllers
+namespace SumanWeb.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

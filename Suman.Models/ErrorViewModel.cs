@@ -1,4 +1,4 @@
-namespace SumanWeb.Models
+namespace Suman.Models
 {
     public class ErrorViewModel
     {
